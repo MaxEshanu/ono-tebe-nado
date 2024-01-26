@@ -1,10 +1,159 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="header">
+      <header_menu class="header_menu">
+        <ul class="header_links">
+          <li class="header-link_no_circle">
+            <a href="#" class="header-link_no_underline">главная</a>
+          </li>
+          <li class="header-link_text">
+            <a href="#" class="header-link">посмотреть лоты</a>
+          </li>
+          <li class="header-link_text">
+            <a href="#" class="header-link">об аукционе</a>
+          </li>
+        </ul>
+      </header_menu>
+      <header_logo class="header_logo">
+        <img href="#" class="header_logo_black" src="images/logo-black.svg" />
+      </header_logo>
+      <address class="address">
+        <ul class="address_list">
+          <li href="tel:+70000000">+7(800)555-35-35</li>
+          <li href="mailto:mail@example.com">eshanu01@mail.ru</li>
+          <li>
+            <a class="no_underline">ул.Кузнецова 3А</a>
+          </li>
+          <li>
+            <a class="no_underline">Москва</a>
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <section class="cover">
+        <div class="title">
+          <h1 class="aligned_text">
+            <span class="letter_o1">о</span>
+            <span class="letter_n1">н</span>
+            <span class="letter_o2">о</span>
+          </h1>
+          <h1 class="aligned_text_center">
+            <span class="letter_t">т</span>
+            <span class="letter_e1">е</span>
+            <span class="letter_b">б</span>
+            <span class="letter_e2">е</span>
+          </h1>
+          <h1 class="aligned_text_right">
+            <span class="letter_n2">н</span>
+            <span class="letter_a">а</span>
+            <span class="letter_d">д</span>
+            <span class="letter_o3">о</span>
+          </h1>
+        </div>
+        <div class="cover_description">
+          <p class="description_text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet_button">Сделать ставку</button>
+        </div>
+      </section>
+      <section class="lots">
+        <h2 class="lots_title">Лоты</h2>
+        <cards>
+        <div class="card_type_film">
+          <div class="background"></div>
+          <h3 class="card_type_film_title">
+            Фильм режиссёра, который бросил киношколу
+          </h3>
+          <p class="card_type_film_text">
+            Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
+            если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+          </p>
+        </div>
+        <div class="card_type_book">
+          <div class="background"></div>
+          <h3 class="card_type_book_title">
+            Книга, где описан один скучный день из жизни рекламного агента
+          </h3>
+          <p class="card_type_book_text">
+            Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами
+            на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы,
+            начиная с античных времён. И это всё накладывается на эпическую поэму Гомера.
+            Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+          </p>
+        </div>
+        <div class="card_type_pic">
+          <div class="background"></div>
+          <h3 class="card_type_pic_title">
+            Картина, которую повторит даже 5-летний сын маминой подруги
+          </h3>
+          <p class="card_type_pic_text">
+            Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее
+            на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили,
+            если бы не знали, что это — одна из революционных работ Кандинского?
+          </p>
+        </div>
+      </cards>
+      <a href="#" class="view_more">посмотреть больше</a>
+      </section>
+      <section class="about">
+        <div class="logo_and_ob">
+        <div class="logo_background"></div>
+        <div>
+          <h2 class="about_title">Об аукционе</h2>
+        </div>
+      </div>
+        <div class="about_column">
+          <div class="about_text">
+            <p class="paragraph_1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+              Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            </p>
+            <p class="paragraph_2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
+              В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными.
+              Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
+              современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели.
+              И сейчас эти лоты стали культовыми.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+      <footer class="footer">
+        <address class="address_footer">
+          <ul class="address_list">
+            <li href="tel:+70000000">+7(800)555-35-35</li>
+            <li href="mailto:mail@example.com">eshanu01@mail.ru</li>
+            <li>
+              <a class="no_underline">ул.Кузнецова 3А</a>
+            </li>
+            <li>
+              <a class="no_underline">Москва</a>
+            </li>
+          </ul>
+          </ul>
+        </address>
+        <div class="nav">
+          <a  href="#" class="main_contact">главная</a>
+          <a href="#" class="check_lot">посмотреть лоты</a>
+          <a href="#" class="about_us">об аукционе</a>
+        </div>
+        <div class="contacts">
+          <div class="yt_img"></div>
+          <div class="vk_img"></div>
+          <div class="pin_img"></div>
+        </div>
+      </footer>
+  </body>
 </html>
+
