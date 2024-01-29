@@ -78,11 +78,21 @@
   text-decoration: none;
 }
 
+.background_cover {
+  width: 1100px;
+  height: 757px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: -1;
+}
+
 .cover {
   background: url("../images/cover.jpg") center/cover;
   width: 1100px;
   height: 757px;
   margin-top: 95px;
+  position: relative;
+  z-index: 1;
 }
 
 .title {
@@ -207,7 +217,7 @@
 .background {
   width: 334px;
   height: 563px;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   z-index: -1;
 }
