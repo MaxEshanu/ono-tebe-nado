@@ -11,15 +11,18 @@
 }
 
 .header_menu {
-  margin-left: 26.52px;
   display: flex;
   width: 391.48px;
   height: 22px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
 }
 
-.header_links {
-  display: flex;
-  gap: 32px;
+.list_marker {
+  width: 7px;
+  height: 7px;
 }
 
 .header-link {
@@ -54,7 +57,6 @@
 
 .address {
   display: flex;
-  /*align-items: center;*/
   line-height: 24.3px;
   letter-spacing: 0px;
   width: 240.52px;
@@ -246,6 +248,7 @@
   font-size: 22px;
   margin-left: 40px;
   padding-top: 51px;
+  width: 254px;
 }
 
 .card_type_book_text {
@@ -274,6 +277,7 @@
   font-size: 22px;
   margin-left: 40px;
   padding-top: 51px;
+  width: 254px;
 }
 
 .card_type_pic_text {
