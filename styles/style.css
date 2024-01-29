@@ -327,7 +327,12 @@
 }
 
 .about_title {
-  width: 291px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about_title_text {
+  width: 400px;
   height: 47px;
   font-size: 40px;
   font-weight: 700px;
