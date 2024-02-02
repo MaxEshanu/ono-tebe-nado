@@ -82,6 +82,10 @@ a {
   position: absolute;
   inset: 0;
   z-index: -1;
+  padding-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cover {
@@ -199,7 +203,7 @@ a {
 .cards {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
   padding-left: 24px;
@@ -212,6 +216,7 @@ a {
   height: 563px;
   position: relative;
   z-index: 1;
+  flex-grow: 1;
 }
 
 .type_film {
@@ -235,6 +240,7 @@ a {
   font-size: 22px;
   margin-left: 40px;
   padding-top: 51px;
+  max-width: 252px;
 }
 
 .card_text {
@@ -243,14 +249,6 @@ a {
   font-size: 20px;
   margin-right: 40px;
   line-height: 24px;
-}
-
-.film_text {
-  margin-top: 245px;
-}
-
-.pic_text {
-  margin-top: 100px;
 }
 
 .view_more {
